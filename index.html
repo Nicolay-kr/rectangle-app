@@ -12,9 +12,9 @@
             <div class="column is-8">
               <div class="content is-medium">
                 <h1>Rectangle App</h1>
-                <div class="view">
+                <div class="view" id="view">
                   <div class="view_label">A</div>
-                  <div class="rect">
+                  <div class="rect" id="rect">
                     <div class="rect_label">
                       B
                     </div>
@@ -29,28 +29,28 @@
 
         <section class="section">
           <div class="columns">
-            <div class="column is-8">
-              <div class="content is-medium">
-
-                <span>x1: 100</span>
-                <button>+</button>
-                <button>-</button>
-
-                <span>y1: 100</span>
-                <button>+</button>
-                <button>-</button>
-
-                <span>x2: 150</span>
-                <button>+</button>
-                <button>-</button>
-
-                <span>y2: 150</span>
-                <button>+</button>
-                <button>-</button>
-
-              </div>
+            <div class="column is-2">
+              <strong>x1: </strong><span id="x1">100</span>
+              <button id="x1-plus">+</button>
+              <button id="x1-minus">-</button>
+            </div>
+            <div class="column is-2">
+              <strong>y1: </strong><span id="y1">100</span>
+              <button id="y1-plus">+</button>
+              <button id="y1-minus">-</button>
+            </div>
+            <div class="column is-2">
+              <strong>x2: </strong><span id="x2">150</span>
+              <button id="x2-plus">+</button>
+              <button id="x2-minus">-</button>
+            </div>
+            <div class="column is-2">
+              <strong>y2: </strong><span id="y2">150</span>
+              <button id="y2-plus">+</button>
+              <button id="y2-minus">-</button>
             </div>
           </div>
+
         </section>
 
       </div>
